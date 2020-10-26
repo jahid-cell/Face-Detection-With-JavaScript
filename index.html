@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-Detection-With-JavaScript</title>
+    <script defer src="./face-api.min.js"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas{
+           display: absolute;
+        }
+    </style>
+</head>
+<body>
+    <video width="720" height="560" id="video" autoplay muted></video>
+    <script defer src="./app.js"></script>
+</body>
+</html>
